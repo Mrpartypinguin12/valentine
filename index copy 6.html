@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e7e7;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #e63946;
+        }
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+        button {
+            background-color: #e63946;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        button:hover {
+            background-color: #bf1a26;
+        }
+        #uploadedImage {
+            max-width: 100%;
+            margin: 0 auto 20px; /* Center horizontally with auto margins */
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button-container button {
+            margin: 0 50px; /* Adjust margin to your preference */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hey hoi hallo Iris!</h1>
+        <p>Het heeft even wat werk gekost, maar het is me gelukt. Dus bij deze</p>
+        <p>Will you be my Valentine?</p>
+        <img id="uploadedImage" src="doggo.png" alt="Uploaded Image">
+        <div class="button-container">
+            <button onclick="window.location.href='good_choice.html';">Yes</button>
+            <button onclick="window.location.href='wrong_choice.html';">No</button>
+        </div>
+    </div>
+</body>
+</html>
